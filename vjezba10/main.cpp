@@ -1,16 +1,22 @@
-#include "Header.hpp"
+﻿#include "Header.hpp"
+#include <iostream>
 
-int main()
-{
-    int arr[] = { 11, 9, 16, 19, 20, 1, 5 };
-    char a[] = { 'F', 'a', 's', 'z', 'W', 'b', 'h', 'B', 'k'};
-    sort_arr(arr, 7);
-    sort_arr(a, 9);
-    for (int i = 0; i < 7; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    for (int i = 0; i < 9; i++) {
-        cout << a[i] << " ";
-    }
+using namespace std;
+
+int main() {
+	Stack<int> int_stack(3);
+
+	int_stack.push(2);
+	int_stack.push(3);
+	int_stack.push(5);
+	int_stack.print();
+	int_stack.pop();
+	cout << endl;
+	if (int_stack.is_empty()) {
+		cout << "Nije prazna";
+	}
+	else {
+		cout << "Prazna";
+	}
+
 }
