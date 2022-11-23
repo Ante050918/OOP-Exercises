@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-/*4. Napisati funkciju u za uklanjanje elementa iz vektora sa što manje operacija. Poredak elemenata u vektoru nije bitan.*/
+/*4. Napisati funkciju u za uklanjanje elementa iz vektora sa Å¡to manje operacija. Poredak elemenata u vektoru nije bitan.*/
 
 void delete_element(vector <int>& vect)
 {
