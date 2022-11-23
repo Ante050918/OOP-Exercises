@@ -5,7 +5,7 @@
 #include <vector>
 #include <string>
 using namespace std;
-/*6. Napiöite funkciju koja stringove, koje korisnik unosi, sprema u vektor stingova,
+/*6. Napi≈°ite funkciju koja stringove, koje korisnik unosi, sprema u vektor stingova,
 svaki string preokrene te sortira vektor po preokrenutim stringovima.*/
 
 void reverse_and_sort()
